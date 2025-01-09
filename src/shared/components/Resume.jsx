@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   const handleOpenPdf = () => {
     // Open the PDF in a new tab
-    window.open("/bvr.pdf", "_blank");
+    window.open("/vicky.pdf", "_blank");
   };
 
   return (
@@ -27,7 +27,7 @@ function Resume() {
             </button>
             {/* Link to Download Resume */}
             <a
-              href="/bvr.pdf"
+              href="/vicky.pdf"
               download
               className="px-6 py-3 rounded-full border border-white text-white hover:bg-gray-500 hover:text-white transition duration-300"
             >
