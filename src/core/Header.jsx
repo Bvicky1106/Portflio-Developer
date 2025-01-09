@@ -44,9 +44,10 @@ const Header = () => {
       <div className={`lg:hidden mt-4 ${isMobileMenuOpen ? 'block' : 'hidden'}`} id="navbar">
         <div className="space-y-4">
           <a href="#home" className="block text-white hover:text-blue-500">Home</a>
-          <a href="#projects" className="block text-white hover:text-blue-500">Projects</a>
+          <a href="#project" className="block text-white hover:text-blue-500">Projects</a>
           <a href="#about" className="block text-white hover:text-blue-500">About</a>
-          <a href="#skills" className="block text-white hover:text-blue-500">Skills</a>
+          <a href="#tools" className="block text-white hover:text-blue-500">Skills</a>
+          <a href="#resume" className="block text-white hover:text-blue-500">Resume</a>
         </div>
       </div>
     </nav>
