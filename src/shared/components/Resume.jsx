@@ -9,7 +9,7 @@ function Resume() {
   return (
     <section
       id="resume"
-      className="flex bg-dark-black flex-col lg:justify-center md:flex-row bg-primary px-5 py-16 md:py-24"
+      className="flex bg-dark-black flex-col lg:justify-center md:flex-row md:justify-center bg-primary px-5 py-16 md:py-24"
     >
       <div className="md:w-1/2 flex flex-col justify-center">
         <div className="text-center md:text-center">
